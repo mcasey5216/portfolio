@@ -1,31 +1,64 @@
-body {
-  text-align: center;
- }
+html {
+	margin: 0;
+	padding: 0;
+	font: normal normal normal 1em/1.5 "Univers LT W01 55 Roman", "Helvetica Neue", Arial, sans-serif;
+	color: #313131;
+}
 
-#page-wrap {
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Univers LT W01 65 Bold", "Helvetica Neue", Arial, sans-serif;
+	font-weight: normal;
+	margin: 0;
+	line-height: 1.2;
+}
+
+h1 em,
+h2 em,
+h3 em,
+h4 em,
+h5 em,
+h6 em {
+	font-family: "UniversLTW01-65BoldObli", "Helvetica Neue", Arial, sans-serif;
+	font-style: normal;
+}
+
+strong {
+	font-family: "Univers LT W01 65 Bold", "Helvetica Neue", Arial, sans-serif;
+	font-weight: normal;
+}
+
+em {
+	font-family: "UniversLTW01-55Oblique", "Helvetica Neue", Arial, sans-serif;
+	font-style: normal;
+}
+
+h2 {
+	color: #999;
+	border-bottom: 1px solid #ddd;
+	padding: 0.85em 16px 0.375em;
+	margin: 1em -16px 1em;
+	text-transform: uppercase;
+	font-size: 1em;
+	letter-spacing: 2px;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+.page {
   text-align: left;
   width: 800px;
   margin: 0 auto;
 }
-
-/*menu bar*/
-.menu-bar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-.menu-bar li {
-  float: left;
-}
-.menu-bar li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-  .menu-bar li a:hover {
-    background-color: #111;
-  }
