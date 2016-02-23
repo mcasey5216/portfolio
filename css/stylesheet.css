@@ -12,6 +12,12 @@ body {
   text-align: center;
 }
 
+.page {
+  text-align: left;
+  width: 800px;
+  margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
@@ -56,9 +62,4 @@ h2 {
 
 h3 {
 	font-size: 1.4em;
-}
-.page {
-  text-align: left;
-  width: 800px;
-  margin: 0 auto;
 }
